@@ -11,4 +11,4 @@ install_github("mxcai/HIRErp")
 
 RA data
 ===========
-The RA data can be run using the codes in demo file.
+The simulation and RA data can be run using the codes in demo file.
