@@ -1,5 +1,7 @@
 # HIRErp
 
+The source code is credited to Xiangyu Luo. 
+
 Installation
 ===========
 
