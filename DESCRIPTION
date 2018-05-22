@@ -1,0 +1,13 @@
+Package: HIRErp
+Type: Package
+Title: Detection of cell-type-specific risk-CpG sites for each
+        phenotype in epigenome-wide association studies
+Version: 1.7
+Date: 2018-03-22
+Author: First Last 
+Maintainer: First Last <first.last@university.com>
+Description: In EWAS, the observed methylation level of each sample is a methylation mixture from distinct cell types. Existing reference-free methods tackle the problem by either estimating cellular compositions or extracting principle components (PCs) that explain the cell proportion variations. Most of them added the estimated composition or PCs as additive effects into downstream linear regressions, leading to low resolution results: we do not know in which cell type one CpG site is significantly associated with the phenotype. Through regarding the cellular compositions as multiplicative effects and modelling the underlying data generation mechanism in a statistical way, we propose the tool HIRE that provides HIgh REsolution results: the cell-type-specific association pattern for each phenotype. 
+Imports: quadprog, gplots
+License: MIT
+NeedsCompilation: yes
+Packaged: 2018-03-22 08:11:20 UTC; type_ok_login

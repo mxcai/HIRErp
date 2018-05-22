@@ -1,0 +1,8 @@
+export(HIRE)
+export(HIRE_sq)
+export(HIRE_sq_full)
+export(cal_p)
+export(riskCpGpattern)
+import(quadprog)
+import(gplots)
+useDynLib(HIRErp)
