@@ -73,9 +73,9 @@ Ometh[Ometh < 0] <- 0
 ################################################################################################
 
 #return list by HIRE
-ret_list <- HIRE_sq(Ometh, X, num_celltype=K,tol=1e-3,num_iter = 1000)
+ret_list <- HIRE_sq(Ometh, X, num_celltype=K,tol=1e-5,num_iter = 1000)
 
-ret_list_full <- HIRE_sq_full(Ometh, X, num_celltype=K,tol=1e-3,num_iter = 500,P_t = ret_list$P_t,mu_t = ret_list$mu_t,sig_sqTiss_t = ret_list$sig_sqTiss_t,sig_sqErr_t = ret_list$sig_sqErr_t)
+ret_list_full <- HIRE_sq_full(Ometh, X, num_celltype=K,tol=1e-5,num_iter = 500,P_t = ret_list$P_t,mu_t = ret_list$mu_t,sig_sqTiss_t = ret_list$sig_sqTiss_t,sig_sqErr_t = ret_list$sig_sqErr_t)
 
 #case vs control
 #the risk pattern for the first 1000 CpG sites
